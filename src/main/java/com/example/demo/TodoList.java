@@ -8,5 +8,6 @@ public class TodoList {
     @GetMapping("/")
     public String helloWorld(){
         return "To-do Application !" ;
+
     }
 }
